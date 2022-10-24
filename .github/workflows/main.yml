@@ -1,8 +1,5 @@
-name: Build Statut
-on:
-  push:
-    branches:
-      - '*'
+name: Build FAQ
+on: [push]
 jobs:
   build_latex:
     runs-on: ubuntu-latest
